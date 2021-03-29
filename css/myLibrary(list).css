@@ -1,0 +1,358 @@
+.lib-head {
+    font-size: 96px;
+    font-family: 'Montserrat', sans-serif !important;
+    height: 104px;
+    text-transform: uppercase;
+}
+
+.s-content {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.NDs {
+    float: right;
+    font-size: 4rem;
+    margin-top: -6.8rem;
+    color: #000;
+}
+
+.NDs:hover {
+    color: #000;
+}
+
+.a1 {
+    margin-left: 3rem;
+}
+
+.a2 {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.a2:hover {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.a2 b {
+    color: #000;
+}
+
+.a2:focus {
+    color: #000;
+    font-weight: bold;
+}
+
+.row.down-arrow {
+    margin-top: 1.2rem;
+    margin-bottom: 0.4rem;
+}
+
+.song-icon {
+    visibility: hidden;
+}
+
+.a-sort {
+    margin-left: 30px;
+}
+
+.icon-text {
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    align-items: center;
+    color: #000000;
+    margin-right: 8%;
+}
+
+.icon-text1 {
+    margin-left: 15%;
+}
+
+.icon-text11 {
+    margin-left: 1%;
+}
+
+.sort-div {
+    display: none;
+    width: 180px;
+    margin-left: -30px;
+    margin-top: 5px;
+    box-shadow: 4px 5px 5px -1px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+    position: absolute;
+    background: #fff;
+}
+
+.sort-div img {
+    width: 179.9px;
+}
+
+.sort-div a {
+    color: #000;
+}
+
+.resBtn {
+    width: 255px;
+    height: 48px;
+    background: #000000;
+    border-color: #000000;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: -1rem;
+}
+
+.OnPadViewOnly,
+.notD {
+    display: none;
+}
+
+@media (max-width: 2000px) {
+    .a1 {
+        margin-left: 3.5rem;
+    }
+    .a-sort {
+        margin-left: 60px;
+    }
+    .row.down-arrow {
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+	.SingArtDiv {
+		margin-right: 0rem;
+	}
+}
+
+@media (max-width: 1440px) {
+    .s-content {
+        flex: 0 0 77%;
+        padding-left: 0px;
+    }
+    .row.down-arrow {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .a-sort {
+        margin-left: 52px;
+    }
+	.SingArtDiv {
+		margin-right: -.5rem;
+	}
+}
+
+@media (max-width: 1366px) {
+    .a1 {
+        margin-left: 2.6rem;
+    }
+    .a-sort {
+        margin-left: 42px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .s-content {
+        padding-left: 8px;
+    }
+    .NDs {
+        margin-top: -3.9rem !important;
+    }
+	.a-sort {
+		margin-left: 35px;
+	}
+}
+
+@media (max-width: 1200px) {
+    .a1 {
+        margin-left: 1.4rem;
+    }
+    .a-sort {
+        margin-left: 6px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .lib-head {
+        height: 170px;
+        font-size: 65px;
+    }
+    .s-content {
+        flex: unset !important;
+    }
+    .col-lg-9.s-content {
+        width: 72%;
+    }
+    .NDs {
+        margin-top: -10.6rem !important;
+        position: absolute;
+        right: 0;
+    }
+    .a1 {
+        margin-left: 2.3rem;
+    }
+    .icon-text1 {
+        margin-left: 12%;
+    }
+	.a-sort {
+		margin-left: -3px;
+	}
+}
+
+@media (max-width: 992px) and (min-width:858px) {
+    .col-lg-9.s-content {
+        width: 72%;
+    }
+}
+
+@media (max-width: 969px) and (min-width:858px) {
+    .s-content {
+        flex: unset !important;
+    }
+    .a1 {
+        margin-left: 1.7rem;
+    }
+}
+
+@media (max-width: 857px) and (min-width:769px) {
+    .col-lg-9.s-content {
+        width: 70%;
+    }
+}
+
+@media (max-width: 769px) {
+    .lib-head {
+        height: 72px;
+        font-size: 57.4px;
+    }
+    .s-content {
+        padding-left: 15px;
+    }
+    .col-lg-9.s-content {
+        width: 1200px;
+    }
+    .NDs {
+        margin-top: -4.2rem !important;
+        right: 2.5%;
+    }
+    .d-none {
+        display: block !important;
+    }
+    .OnPadViewOnly,.ex-space {
+        display: none;
+    }
+}
+
+@media(max-width: 541px) and (min-width:420px) {
+    .d-none1 {
+        display: none !important;
+    }
+    .NDs {
+        margin-top: -3.2rem !important;
+    }
+    .my-div2 {
+        width: 25% !important;
+    }
+    .my-div1 {
+        width: 75% !important;
+    }
+    .a-sort {
+        margin-left: 5px;
+    }
+	.icon-text1 {
+		margin-left: 14% !important;
+	}
+}
+
+@media (max-width: 767px) {
+    .lib-head {
+        height: 80px;
+        font-size: 45px;
+        margin-top: -4.5%;
+        display: inline-block;
+        width: 91%;
+    }
+    .a1 {
+        margin-left: 0rem;
+    }
+    .a1 b {
+        float: left;
+    }
+    .notD {
+        margin-top: 1.5rem !important;
+    }
+    .mTp {
+        margin-bottom: 0rem !important;
+        margin-top: -2.5rem !important;
+    }
+    .row.down-arrow {
+        margin-top: 0rem;
+        margin-bottom: 1.5rem;
+    }
+    .my-div1 {
+        width: 59%;
+    }
+    .my-div2 {
+        width: 41%;
+    }
+    .resBtn {
+        margin-bottom: 1rem;
+    }
+    .NDs,
+    .notD {
+        display: unset;
+    }
+    .txt1,
+    .d-none1 {
+        display: none !important;
+    }
+	.SingArtDiv {
+		margin-right: 0rem;
+	}
+	.icon-text1 {
+		margin-left: 27%;
+	}
+}
+
+@media(max-width: 541px) {
+    .OnPadViewOnly {
+        display: none;
+    }
+	
+}
+
+@media (max-width: 416px) {
+    .lib-head {
+        height: 70px;
+        margin-top: -4.5%;
+        width: 88%;
+        font-size: 38px;
+    }
+    .NDs {
+        margin-top: -3.3rem !important;
+    }
+    .resBtn {
+        width: 382px;
+    }
+}
+
+@media (max-width: 376px) {
+    .resBtn {
+        width: 345px;
+    }
+}
+
+@media (max-width: 321px) {
+    .lib-head {
+        height: 91px;
+    }
+	.icon-text1 {
+		margin-left: 17%;
+	}
+}
