@@ -407,6 +407,10 @@ a {
     color: #D23636;
 }
 
+.LMore:hover {
+    color: #D23636;
+}
+
 .LMarLft {
     margin-left: 6.5rem;
 }
